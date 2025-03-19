@@ -2,23 +2,62 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Inline&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+/* Google Fonts */
+
+.bungee-regular {
+	font-family: "Bungee", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  }
+
+  .bungee-inline-regular {
+	font-family: "Bungee Inline", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  }
+
+  				/* font-weight for oswald can range from 200 to 700 */
+.oswald-regular {
+	font-family: "Oswald", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 200;
+	font-style: normal;
+  }
+
+  .oswald-light {
+	font-family: "Oswald", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 200;
+	font-style: normal;
+  }
+  
+  					/* font-weight for montserrat can range from 100 to 900 */
+.montserrat-regular {
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 200;
+	font-style: normal;
+  }
+
 /* Changing the main font and background colour */
 
 body {
-	font-family: Raleway, sans-serif;
+	font-family: Montserrat, sans-serif;
 	background-color: #fffcf8;
 }
 
 /* Changing the background colour for the header */
 
 header {
-	background-color: #000060;
+	background-color: #00BAE0 ;
 }
 
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #fff0e0;
+	background-color: #00BAE0;
 }
 
 /* Effect on social media buttons */
@@ -41,4 +80,19 @@ footer a:hover {
 		.02em .02em .02em white,
 		0 0 .2em white,
 		0 0 .5em white;
+}
+
+h1 {
+	font-family: Bungee, sans-serif;
+	font-size: 2.5em;
+}
+
+h5 {
+	font-family: Oswald, sans-serif;
+	font-size: 2em;
+}
+
+li {
+	font-family: Oswald, sans-serif;
+	font-size: 1.5em;
 }
