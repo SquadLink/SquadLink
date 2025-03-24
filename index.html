@@ -37,7 +37,7 @@
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img src="images/squadlink-transparant.png" width="50" alt="SquadLink">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,54 +49,59 @@
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index-temp.html">Who are we?</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                SquadLink
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="index-temp.html">What is SquadLink?</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="goal.html">Our Goal</a></li>
-                <li><a class="dropdown-item" href="Sanna.html">Sanna</a></li>
-				        <li><a class="dropdown-item" href="Yasmijn.html">Yasmijn</a></li>
-                <li><a class="dropdown-item" href="Wessel.html">Wessel</a></li>
-                <li><a class="dropdown-item" href="index-temp.html">Contact</a></li>
-              </ul>
+              <a class="nav-link" href="goal.html">Our Goal</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://buas-media-interactive.github.io/prj4-guide/" target="_blank">Download</a>
+              <a class="nav-link" href="info.html">Info</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index-temp.html">Corporate</a>
+              <a class="nav-link" href="started.html">Getting Started</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html" target="_blank">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Corporate
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="corporate.html">General</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="corporate.html">Content</a></li>
+                  <li><a class="dropdown-item" href="corporate.html">Production</a></li>
+                  <li><a class="dropdown-item" href="corporate.html">Marketing</a></li>
+                  <li><a class="dropdown-item" href="corporate.html">Management</a></li>
+                  <li><a class="dropdown-item" href="corporate.html">Appendix</a></li>
+                </ul>
+              </li>
           </ul>
         </div>
       </div>
     </nav>
-    <!-- End of navigation bar -->
+      <!-- End of navigation bar -->
 	  
-	  
-	  
-	  <header>
+    <header>
 
-  <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
-  <div class="overlay"></div>
+      <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
+      <div class="overlay"></div>
 
-  <!-- The HTML5 video element that will create the background video on the header -->
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="https://cdn.coverr.co/videos/coverr-cinematic-snowy-mountains-7615/720p.mp4" type="video/mp4">
-  </video>
+      <!-- The HTML5 video element that will create the background video on the header -->
+      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="videos/landingpagehero.mp4" type="video/mp4">
+      </video>
 
-  <!-- The header content -->
-  <div class="container h-100 d-flex flex-column justify-content-center align-items-center">
-      <img class="mb-4" src="images/squadlink-transparant.png" width="100" alt="SquadLink">
-      <h1>SquadLink</h1>
-      </div>
-    </div>
-	  
-</header>
+      <!-- The header content -->
+        <div class="container h-100 d-flex flex-column justify-content-center align-items-center">
+          <img class="mb-4 title-image" src="images/squadlink-transparant.png" width="500" alt="SquadLink">
+          <h1 class="title-header">SquadLink</h1>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-primary title-button" type="button">Get your FREE customized bonding plan!</button>
+          </div>
+        </div>
+   </header>
 
 <!-- Page section example for content below the video header -->
 <section class="my-5">

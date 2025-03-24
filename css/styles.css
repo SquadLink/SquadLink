@@ -99,7 +99,7 @@ li {
 
 header {
 	position: relative;
-	background-color: black;
+	background-color: rgb(0, 0, 0);
 	height: 75vh;
 	min-height: 25rem;
 	width: 100%;
@@ -109,7 +109,7 @@ header {
   header video {
 	position: absolute;
 	top: 50%;
-	left: 50%;
+	left: 52%;
 	min-width: 100%;
 	min-height: 100%;
 	width: auto;
@@ -153,10 +153,27 @@ header {
 
   /* Rodney CSS */
 
+.title-header {
+	font-family: "Bungee Inline", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	color: #fffcf8;
+	position: absolute;
+	top: 70%;
+	text-align: center;
+}
 
+.title-button {
+	font-family: "Oswald", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+	font-size: larger;
+	position: absolute;
+	top: 85%;
 
-
-
+	
+}
 
 
 
