@@ -204,7 +204,6 @@ margin-right: -1%;
 width: 75px;
 margin: 10px;
 	}
-  
 
 
 
@@ -244,8 +243,16 @@ margin: 10px;
 
   /* Sanna CSS */
 
-
-
+.sannaborder {
+	margin-top: 40px;
+		
+}
+.sannaborder2 {
+	padding-bottom: 40px;
+}
+.accordion-button {
+	min-height: 60px
+}
 
 
 
