@@ -32,57 +32,53 @@
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="images/2gether-transparent.png" width="40" alt="Breda University of Applied Sciences">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/squadlink-transparant.png" width="125" alt="SquadLink">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto col-10 mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="example.html">Example</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                UX Patterns
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="hero.html">Hero Section</a></li>
-                <li><a class="dropdown-item" href="carousel.html">Carousel</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="two-columns.html">Two-column Layout</a></li>
-                <li><a class="dropdown-item active" aria-current="page" href="cards.html">Cards</a></li>
-              </ul>
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://buas-media-interactive.github.io/prj4-guide/" target="_blank">PRJ4 Guide</a>
+              <a class="nav-link" href="goal.html">Our Goal</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="corporate.html">Corporate</a>
+              <a class="nav-link" href="info.html">Info</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="started.html">Getting Started</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Corporate
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="corporate.html">General</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="corporate.html">Content</a></li>
+                  <li><a class="dropdown-item" href="corporate.html">Production</a></li>
+                  <li><a class="dropdown-item" href="corporate.html">Marketing</a></li>
+                  <li><a class="dropdown-item" href="corporate.html">Management</a></li>
+                  <li><a class="dropdown-item" href="corporate.html">Appendix</a></li>
+                </ul>
+              </li>
           </ul>
         </div>
       </div>
     </nav>
-    <!-- End of navigation bar -->
-
-    <section class="container my-4">
-      <div class="border-start border-primary border-5 p-2 bg-primary bg-opacity-10 rounded">
-        <p>This is an example that uses two features of Bootstrap:</p>
-        <ul>
-          <li>
-            <a href="https://getbootstrap.com/docs/5.1/layout/grid/" target="_blank">The responsive grid</a>
-          </li>
-          <li>
-            <a href="https://getbootstrap.com/docs/5.1/components/card/" target="_blank">Cards</a>
-          </li>
-        </ul>
-      </div>
-    </section>
+      <!-- End of navigation bar -->
 
     <!-- A grid with cards
       Learn about grids at: https://getbootstrap.com/docs/5.1/layout/grid/
@@ -90,17 +86,20 @@
     -->
     <main class="container my-4">
       <div class="row g-3 justify-content-evenly">
-
+        <div class="col-12 text-center mb-4">
+          <h1>Meet the Team</h1>
+          <p class="lead">We are a group of students from <a href="https://www.buas.nl/" target="_blank">Breda University of Applied Sciences</a>, working on this project as part of our studies.</p>
+        </div>
         <!-- Card #1 -->
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
+            <img class="img-fluid" src="images/rodney.jpg" alt="Profile Image of Rodney Peerkhan">
             <div class="card-body">
-              <h5 class="card-title">Card #1</h5>
-              <p class="card-text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
+              <h5 class="card-title">Rodney Peerkhan</h5>
+              <p class="card-text">Currently in my second year of Creative Business at Breda University of Applied Sciences, where I’m working on a multitude of storytelling, graphic design and audio-visual production projects.</p>
             </div>
             <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
+              <a href="https://www.linkedin.com/in/rodneypeerkhan/" target="_blank" class="btn btn-primary">Learn more</a>
             </div>
           </div>
         </div>
@@ -110,11 +109,11 @@
           <div class="card shadow h-100">
             <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
             <div class="card-body">
-              <h5 class="card-title">Card #2</h5>
+              <h5 class="card-title">Sanna van Vliet</h5>
               <p class="card-text">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum.</p>
             </div>
             <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
+              <a href="https://www.linkedin.com/in/sanna-van-vliet-03a3ba350/" target="_blank" class="btn btn-primary">Learn more</a>
             </div>
           </div>
         </div>
@@ -124,11 +123,11 @@
           <div class="card shadow h-100">
             <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
             <div class="card-body">
-              <h5 class="card-title">Card #3</h5>
+              <h5 class="card-title">Wessel Moeleker</h5>
               <p class="card-text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
             </div>
             <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
+              <a href="https://www.linkedin.com/in/wesselmoeleker/" target="_blank" class="btn btn-primary">Learn more</a>
             </div>
           </div>
         </div>
@@ -138,87 +137,74 @@
           <div class="card shadow h-100">
             <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
             <div class="card-body">
-              <h5 class="card-title">Card #4</h5>
+              <h5 class="card-title">Yasmijn Engelaar</h5>
               <p class="card-text">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum.</p>
             </div>
             <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
+              <a href="https://www.linkedin.com/in/yasmijn-engelaar-a087b534b/" target="_blank" class="btn btn-primary">Learn more</a>
             </div>
           </div>
         </div>
 
-        <!-- Card #5 -->
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
-            <div class="card-body">
-              <h5 class="card-title">Card #5</h5>
-              <p class="card-text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
-            </div>
-            <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card #6 -->
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
-            <div class="card-body">
-              <h5 class="card-title">Card #6</h5>
-              <p class="card-text">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum.</p>
-            </div>
-            <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- That was the last card -->
-
+ 
       </div>
     </main>
     <!-- End of the grid with cards -->
 
-    <!-- A footer with socials -->
-    <footer class="shadow-lg mt-auto py-4 bg-body">
-      <div class="container d-flex justify-content-between align-items-center">
-        <p>
-          © 2020&ndash;2024 &mdash; Breda University of Applied Sciences
-        </p>
-        <ul class="list-unstyled d-flex align-items-center opacity-75">
-          <li>
-            <a href="https://www.facebook.com/bredauniversityas" target="_blank">
-              <img class="m-2" src="images/facebook.svg" alt="Follow us on" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/school/bredauniversityas/" target="_blank">
-              <img class="m-2" src="images/linkedin.svg" alt="Follow us on LinkedIn" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/bredauas" target="_blank">
-              <img class="m-2" src="images/twitter.svg" alt="Follow us on Twitter" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/BredaUniversityofAppliedSciences" target="_blank">
-              <img class="m-2" src="images/youtube.svg" alt="Follow us on YouTube" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/bredauniversityas/" target="_blank">
-              <img class="m-2" src="images/instagram.svg" alt="Follow us on Instagram" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.tiktok.com/@bredauniversityas" target="_blank">
-              <img class="m-2" src="images/tiktok.svg" alt="Follow us on TikTok" width="26">
-            </a>
-          </li>
-        </ul>
+    <section class="container">
+      <div class="col-12 text-center mb-4">
+        <hr><h1>Contact us</h1>
+        <p class="lead">Send us an email or contact us on one of our socials.<br>Be sure to check out the <a href="faq.html">Frequently Asked Questions</a> page before you contact us.</p>
+        <p>* You must complete these fields.</p>
+      </div>
+     
+      <form>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address*</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Your question*</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+        </div>
+        <div class="mb-3">
+          <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+          <input class="form-control" type="file" id="formFileMultiple" multiple>
+        </div>
+        <div>
+          <button class="btn btn-primary mb-2" type="reset">Submit</button>
+        </div>
+      </form>
+    </section>
+
+
+
+    <!-- Start of the footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-9 text-center">
+            <div class="footer-site-logo mb-4">
+              <h5>SquadLink</h5>
+            </div>
+            <ul class="list-unstyled nav-links mb-5">
+              <li><a href="goal.html">Our Goal</a></li>
+              <li><a href="info.html">Info</a></li>
+              <li><a href="started.html">Getting Started</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="corporate.html">Corporate</a></li>
+            </ul>
+
+            <div class="social mb-4">
+              <h3>Stay in touch</h3>
+              <ul class="list-unstyled d-flex justify-content-center">
+                <li class="social-links"><a href="https://www.tiktok.com/search?q=squadlink&t=1742413913655"><img src="images/tiktok.svg" alt="TikTok"></a></li>
+                <li class="social-links"><a href="https://www.instagram.com/squadlink_nl/"><img src="images/instagram.svg" alt="Instagram"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
     <!-- End of the footer -->
