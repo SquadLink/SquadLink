@@ -13,7 +13,7 @@
     <!-- Bootstrap Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-    <title>PRJ4 Base Group Template &mdash; Example based on Bing Chat&rsquo;s suggestion</title>
+    <title>Our Goal</title>
 
     <!-- Google Analytics code goes just below here (check PRJ4 Guide for details) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-BSL5G8TY0Z"></script>
@@ -27,174 +27,195 @@
     <!-- End of Google Analytics code -->
 
   </head>
-  <body class="h-100 d-flex flex-column">
+<body class="h-100 d-flex flex-column">
 
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+   <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="images/2gether-transparent.png" width="40" alt="Breda University of Applied Sciences">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/squadlink-transparant.png" width="125" alt="SquadLink">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto col-10 mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="example.html">Example</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                UX Patterns
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="hero.html">Hero Section</a></li>
-                <li><a class="dropdown-item" href="carousel.html">Carousel</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="two-columns.html">Two-column Layout</a></li>
-                <li><a class="dropdown-item" href="cards.html">Cards</a></li>
-              </ul>
+              <a class="nav-link active" aria-current="page" href="goal.html">Our Goal</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://buas-media-interactive.github.io/prj4-guide/" target="_blank">PRJ4 Guide</a>
+              <a class="nav-link" href="info.html">Info</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="corporate.html">Corporate</a>
+              <a class="nav-link" href="started.html">Getting Started</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Corporate
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="corporate.html">General</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="corporate.html">Content</a></li>
+                  <li><a class="dropdown-item" href="corporate.html">Production</a></li>
+                  <li><a class="dropdown-item" href="corporate.html">Marketing</a></li>
+                  <li><a class="dropdown-item" href="corporate.html">Management</a></li>
+                  <li><a class="dropdown-item" href="corporate.html">Appendix</a></li>
+                </ul>
+              </li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- End of navigation bar -->
 
-    <section class="container my-4">
-      <div class="border-start border-primary border-5 p-2 bg-primary bg-opacity-10 rounded">
-        <p class="my-1">This page corresponds to the content of the page that Bing Chat suggested for 2Gether.</p>
+    <header class="ourgoal-header">
+
+      <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
+      
+      <div class="overlay-blacker"> </div>
+
+      <!-- The HTML5 video element that will create the background video on the header -->
+      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="videos/ourgoalhero.mp4" type="video/mp4">
+      </video>
+
+      <!-- The header content -->
+      <div class="container h-100 d-flex flex-column justify-content-center align-items-center text-center"> <img class="ourgoal-logo" src="images/squadlink-transparant.png" width="400" alt="SquadLink Logo">
+        <h1 class="ourgoal-title-header">Our Goal</h1>
+		<p class="subtitle-header">In a world where a lack of team spirit causes dismay and the disbanding of teams, we believe that fostering strong bonds between players will result in a closer-knit group that will have more enjoyment and motivation for their sport.</p>
+<div class="d-grid gap-2 col-8 mx-auto title-button">
+   		<a href="#our-values">
+      	<button class="btn btn-primary" type="button">
+       	See Our Values!	
+      	</button>
+    </a>
+  </div>
+</div>
+
+</header>
+	
+<!-- Who are we -->
+<h1 class="justify-content-center align-items-center text-center m-5">Who are we?</h1>
+	<p class="left-aligned-centered">SquadLink isn’t just a name. It’s a feeling. A shared moment. A way of life.
+
+It begins the second you step onto the pitch. The sun’s just starting to break through the clouds. The smell of freshly cut grass hits your nose—sharp, familiar, grounding. You hear the echo of laughter and cleats tapping against the concrete as your teammates arrive one by one, greeting you with fist bumps, inside jokes, and that unspoken bond only real squads understand. <br><br>
+
+As you lace up your boots and tighten your shin guards, there’s a spark in the air. You’re not just here to play. You’re here to fight for each other. To lift one another up. You glance around the field—every smile, every nod, every shout tells you the same thing: you’re not alone.<br><br>
+
+You jog to the center circle, hearts beating in sync, and just before kickoff, there’s that one moment. That deep breath. That roar. That surge of adrenaline as your team shouts in unison, hyping each other up like warriors heading into battle. That’s SquadLink.<br><br>
+
+It’s every through ball and every slide tackle. It’s the hand that pulls you up when you hit the ground. It’s that feeling when you make the perfect pass—and your teammate finishes it with a goal that sends the whole team running in celebration.<br><br>
+
+And when the final whistle blows—win, lose, or draw—you retreat to the locker room together. Sweaty, exhausted, but grinning ear to ear. You crack open a cold bottle of water, sit back on the bench, and talk through the game with your boys. You replay the best plays, laugh at the missteps, and already start planning for the next match. Because that’s what it’s all about.<br><br>
+
+SquadLink is where squads come alive. It’s where teammates become friends, and moments become memories.
+Welcome to the team. Let’s make history—one match at a time. </p>
+<!-- End of who are we -->
+      
+    <!-- The our values section -->
+<h1 id="our-values" class="justify-content-center align-items-center text-center mt-5">Our Values</h1>
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    
+    <div class="col-md-3 col-sm-6 mb-4">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/value-cards/teamspirit.jpg" width="100%" alt="Team Spirit Value Card">
+          </div>
+          <div class="flip-card-back text-adjustment text-adjustment">
+            <h1>Team Spirit</h1>
+            <p>Short description or value here.</p>
+          </div>
+        </div>
       </div>
-    </section>
+    </div>
 
-    <div class="container-fluid">
-      <div class="row bg-success bg-opacity-25">
+    <div class="col-md-3 col-sm-6 mb-4">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/value-cards/enjoyment.jpg" width="100%" alt="Respect Value Card">
+          </div>
+          <div class="flip-card-back">
+            <h1>Enjoyment</h1>
+            <p>Short description or value here.</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <!-- Start of hero section -->
-        <header class="col-12 col-lg-8 col-xl-6 p-0">
-          <div class="d-flex w-100 position-relative">
-            <video autoplay loop muted class="w-100 m-0">
-                <source src="https://www.buas.nl/sites/default/files/2023-09/corporate_video.mp4" type="video/mp4">
-            </video>
-            <div class="w-100 position-absolute pt-2 pt-md-4 pt-lg-5 text-center">
-              <div class="row">
-                <div class="col-md-8 col-lg-6 mx-auto">
-                  <h1 class="fw-bold white-shadow">All 2gether Now!</h1>
-                  <h2 class="fw-bold white-shadow">The online platform for togetherness!</h2>
-                  <p class="mt-2">
-                    <a href="#" class="btn btn-lg btn-primary m-1">Join now!</a>
-                  </p>
-                </div>
-              </div>
+    <div class="col-md-3 col-sm-6 mb-4">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/value-cards/motivation.jpg" width="100%" alt="Ownership Value Card">
+          </div>
+          <div class="flip-card-back">
+            <h1>Motivation</h1>
+            <p>Short description or value here.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6 mb-4">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/value-cards/collaboration.jpg" width="100%" alt="Fun Value Card">
+          </div>
+          <div class="flip-card-back">
+            <h1>Collaboration</h1>
+            <p>Short description or value here.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+    <!-- End of our values section -->
+
+  
+<!-- A footer with socials -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-9 text-center">
+            <div class="footer-site-logo mb-4">
+              <h5>SquadLink</h5>
+            </div>
+            <ul class="list-unstyled nav-links mb-5">
+              <li><a href="goal.html">Our Goal</a></li>
+              <li><a href="info.html">Info</a></li>
+              <li><a href="started.html">Getting Started</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="corporate.html">Corporate</a></li>
+            </ul>
+
+            <div class="social mb-4">
+              <h3>Stay in touch</h3>
+              <ul class="list-unstyled d-flex justify-content-center">
+                <li class="social-links"><a href="https://www.tiktok.com/search?q=squadlink&t=1742413913655"><img src="images/tiktok.svg" alt="TikTok"></a></li>
+                <li class="social-links"><a href="https://www.instagram.com/squadlink_nl/"><img src="images/instagram.svg" alt="Instagram"></a></li>
+              </ul>
             </div>
           </div>
-        </header>
-    <!-- End of hero section -->
-      
-    <!-- The Who we are section -->
-        <section class="col-12 col-lg-4 offset-xl-1 text-center">
-          <h2 class="mt-2">Who we are</h2>
-          <p>2gether is a platform that connects people who share common interests, passions, and goals.</p>
-          <p>2gether was founded in 2024 by a Large Language Model, a powerful artificial intelligence that can generate natural language and pretend it understands human needs.</p>
-          <p>2gether is more than just a platform, it is a movement that celebrates diversity, creativity, and innovation.</p>
-        </section>
-    <!-- End of Who we are section -->
-
-      </div>
-    </div>
-
-    <div class="container pt-3 pb-2">
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-10 col-lg-8 col-xl-6 text-center">
-          <h2>Our vision</h2>
-          <p>
-            At 2gether, we envision a world where diversity thrives, and connections are boundless. Our online platform is a vibrant space where individuals from all walks of life unite to discover, share, and fulfil their unique needs and aspirations. We are dedicated to fostering a sense of belonging, breaking down barriers, and creating a global community where every person can find what they seek, creating meaningful connections that transcend boundaries. 2gether is more than just a platform; it's a celebration of the richness that comes from bringing people together, empowering them to explore, connect, and build a future where unity knows no limits.
-          </p>
         </div>
-      </div>
-    </div>
-
-    <div class="bg-dark bg-opacity-10 py-3">
-      <div class="container">
-        <div class="row justify-content-center text-center g-2">
-          <div class="col-12">
-            <h2>Our values</h2>
-          </div>
-          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-            <h4 class="rounded-5 border border-danger bg-danger py-4 bg-opacity-25 fs-4">Joy</h4>
-          </div>
-          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-            <h4 class="rounded-5 border border-warning bg-warning py-4 bg-opacity-25 fs-4">Quality</h4>
-          </div>
-          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-            <h4 class="rounded-5 border border-success bg-success py-4 bg-opacity-25 fs-4">Inclusivity</h4>
-          </div>
-          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-            <h4 class="rounded-5 border border-info bg-info py-4 bg-opacity-25 fs-4">Happiness</h4>
-          </div>
-          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-            <h4 class="rounded-5 border border-primary bg-primary py-4 bg-opacity-25 fs-4">Togetherness</h4>
-          </div>
-          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-            <h4 class="rounded-5 border border-danger bg-danger py-4 bg-opacity-25 fs-4">Experience</h4>
-          </div>
-          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-            <h4 class="rounded-5 border border-warning bg-warning py-4 bg-opacity-25 fs-4">Community</h4>
-          </div>
-          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-            <h4 class="rounded-5 border border-success bg-success py-4 bg-opacity-25 fs-4">Belonging</h4>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- A footer with socials -->
-    <footer class="shadow-lg mt-auto py-4 bg-body">
-      <div class="container d-flex justify-content-between align-items-center">
-        <p>
-          © 2020&ndash;2024 &mdash; Breda University of Applied Sciences
-        </p>
-        <ul class="list-unstyled d-flex align-items-center opacity-75">
-          <li>
-            <a href="https://www.facebook.com/bredauniversityas" target="_blank">
-              <img class="m-2" src="images/facebook.svg" alt="Follow us on" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/school/bredauniversityas/" target="_blank">
-              <img class="m-2" src="images/linkedin.svg" alt="Follow us on LinkedIn" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/bredauas" target="_blank">
-              <img class="m-2" src="images/twitter.svg" alt="Follow us on Twitter" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/BredaUniversityofAppliedSciences" target="_blank">
-              <img class="m-2" src="images/youtube.svg" alt="Follow us on YouTube" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/bredauniversityas/" target="_blank">
-              <img class="m-2" src="images/instagram.svg" alt="Follow us on Instagram" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.tiktok.com/@bredauniversityas" target="_blank">
-              <img class="m-2" src="images/tiktok.svg" alt="Follow us on TikTok" width="26">
-            </a>
-          </li>
-        </ul>
       </div>
     </footer>
     <!-- End of the footer -->
