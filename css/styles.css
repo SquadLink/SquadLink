@@ -438,4 +438,82 @@ header .overlay-blacker {
 
 
   /* Yasmijn CSS */
-  
+
+.border-info {
+	font-family: "Bungee Inline", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	color: #000000;
+}
+
+.info-paragraph {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #000000;
+}
+
+.btn {
+    background-color: #4200FF;
+    border-width: thin;
+    border-color: #000000;
+	font-family: "Oswald", sans-serif;
+}
+
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+  border: 5px solid #4200FF;
+  border-radius: 10px;
+}
+
+.carousel-caption {
+  color: #FFFFFF;
+  background-color: rgba(0, 186, 224, 0.7);
+  border-radius: 12px;                     
+  padding: 1rem 1.5rem;                    
+  max-width: 70%;                          
+  margin: 0 auto;                          
+}
+
+
+.accordion-button {
+  background-color: white;
+  color: black; 
+  font-family: "Oswald", sans-serif;
+  border: 1px solid #00BAE0; 
+}
+
+.accordion-button:hover {
+  background-color: #00BAE0;
+  color: white; 
+  border-color: #00BAE0;
+}
+
+
+.accordion-button:focus, 
+.accordion-button:active {
+  background-color: #00BAE0;
+  color: white; 
+  border-color: #00BAE0;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #00BAE0;
+  color: white;
+  border-color: #00BAE0;
+}
+
+.accordion-body {
+  font-family: "Oswald", sans-serif;
+  font-size: 12px; /* Was 5px — now readable */
+  line-height: 1.6;
+}
+
+.blockquote-footer {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px; 
+  color: #6c757d;
+  display: block;      
+  margin-top: 0.3rem;  
+}
