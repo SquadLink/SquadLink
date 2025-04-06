@@ -506,8 +506,17 @@ header .overlay-blacker {
 
 .accordion-body {
   font-family: "Oswald", sans-serif;
-  font-size: 12px; /* Was 5px — now readable */
+  font-size: 12px; 
   line-height: 1.6;
+}
+
+.accordion-body-two {
+  font-family: "Oswald", sans-serif;
+  font-size: 15px; 
+  line-height: 1.6;
+    padding-left: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
 
 .blockquote-footer {
@@ -517,3 +526,7 @@ header .overlay-blacker {
   display: block;      
   margin-top: 0.3rem;  
 }
+
+
+
+

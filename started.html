@@ -185,21 +185,176 @@
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header">
-	<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseTwo">
+	<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
         Test
       </button>
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      <div class="accordion-body-two">      
+      <h3>Communication Questions</h3>
+      <p> When I call for the ball, my teammates listen and respond effectively.</p>
+      <input type="radio" name="communication1" value="1"> 1
+      <input type="radio" name="communication1" value="2"> 2
+      <input type="radio" name="communication1" value="3"> 3
+      <input type="radio" name="communication1" value="4"> 4
+      <input type="radio" name="communication1" value="5"> 5
+      
+      <p> Our team talks positively on and off the field instead of blaming each other.</p>
+      <input type="radio" name="communication2" value="1"> 1
+      <input type="radio" name="communication2" value="2"> 2
+      <input type="radio" name="communication2" value="3"> 3
+      <input type="radio" name="communication2" value="4"> 4
+      <input type="radio" name="communication2" value="5"> 5
+      
+      <p> We use hand signals, eye contact, or other non-verbal cues to communicate during games.</p>
+      <input type="radio" name="communication3" value="1"> 1
+      <input type="radio" name="communication3" value="2"> 2
+      <input type="radio" name="communication3" value="3"> 3
+      <input type="radio" name="communication3" value="4"> 4
+      <input type="radio" name="communication3" value="5"> 5
+
+      <h3>Trust Questions</h3>
+      <p> I trust my teammates to have my back, even when I make a mistake on the field.</p>
+      <input type="radio" name="trust1" value="1"> 1
+      <input type="radio" name="trust1" value="2"> 2
+      <input type="radio" name="trust1" value="3"> 3
+      <input type="radio" name="trust1" value="4"> 4
+      <input type="radio" name="trust1" value="5"> 5
+      
+      <p> Our team encourages players who are struggling instead of criticizing them.</p>
+      <input type="radio" name="trust2" value="1"> 1
+      <input type="radio" name="trust2" value="2"> 2
+      <input type="radio" name="trust2" value="3"> 3
+      <input type="radio" name="trust2" value="4"> 4
+      <input type="radio" name="trust2" value="5"> 5
+      
+      <p> I feel comfortable giving and receiving constructive feedback from my teammates.</p>
+      <input type="radio" name="trust3" value="1"> 1
+      <input type="radio" name="trust3" value="2"> 2
+      <input type="radio" name="trust3" value="3"> 3
+      <input type="radio" name="trust3" value="4"> 4
+      <input type="radio" name="trust3" value="5"> 5
+
+      <h3>Teamwork Questions</h3>
+      <p> Our team works well together under pressure instead of panicking.</p>
+      <input type="radio" name="teamwork1" value="1"> 1
+      <input type="radio" name="teamwork1" value="2"> 2
+      <input type="radio" name="teamwork1" value="3"> 3
+      <input type="radio" name="teamwork1" value="4"> 4
+      <input type="radio" name="teamwork1" value="5"> 5
+      
+      <p> We understand each other’s playing styles and adapt accordingly.</p>
+      <input type="radio" name="teamwork2" value="1"> 1
+      <input type="radio" name="teamwork2" value="2"> 2
+      <input type="radio" name="teamwork2" value="3"> 3
+      <input type="radio" name="teamwork2" value="4"> 4
+      <input type="radio" name="teamwork2" value="5"> 5
+      
+      <p> We celebrate each other’s successes, even when we’re not the one scoring goals.</p>
+      <input type="radio" name="teamwork3" value="1"> 1
+      <input type="radio" name="teamwork3" value="2"> 2
+      <input type="radio" name="teamwork3" value="3"> 3
+      <input type="radio" name="teamwork3" value="4"> 4
+      <input type="radio" name="teamwork3" value="5"> 5
+
+      <h3>Morale Questions</h3>
+      <p> We genuinely enjoy spending time together off the field.</p>
+      <input type="radio" name="morale1" value="1"> 1
+      <input type="radio" name="morale1" value="2"> 2
+      <input type="radio" name="morale1" value="3"> 3
+      <input type="radio" name="morale1" value="4"> 4
+      <input type="radio" name="morale1" value="5"> 5
+      
+      <p> When something funny happens, the whole team laughs together.</p>
+      <input type="radio" name="morale2" value="1"> 1
+      <input type="radio" name="morale2" value="2"> 2
+      <input type="radio" name="morale2" value="3"> 3
+      <input type="radio" name="morale2" value="4"> 4
+      <input type="radio" name="morale2" value="5"> 5
+      
+      <p> We support each other beyond soccer (school, personal goals, etc.).</p>
+      <input type="radio" name="morale3" value="1"> 1
+      <input type="radio" name="morale3" value="2"> 2
+      <input type="radio" name="morale3" value="3"> 3
+      <input type="radio" name="morale3" value="4"> 4
+      <input type="radio" name="morale3" value="5"> 5
+		  
+		  <div class="container mt-2"> </div>
+
+      <button id="submitQuiz" class="btn btn-primary mt-3">Submit Quiz</button>
+		  
+		  <div class="container mt-5"> </div>
+      
+      <div id="quizResults" class="mt-4">
+        <h4>Your Team Chemistry Score: <span id="finalScore">0</span>/60</h4>
+        <h5>Strengths and Weaknesses:</h5>
+        <ul id="pillars"></ul>
+        <h5>Recommended Challenge:</h5>
+        <p id="challengeRecommendation"></p>
       </div>
-	  </div>
-		  </div>
-		  </div>
     </div>
   </div>
+ </div>
   </div>
+  </div>
+  </div>	  
+</div>
+	 </div>
 	  <!-- End of testimonials & Test -->
+		  
+		<!-- Coding for the scoring part for the demo test -->
+<script>
+
+document.getElementById("submitQuiz").addEventListener("click", function() {
+  // List of pillars
+  const pillars = ["communication", "trust", "teamwork", "morale"];
+  let scores = {};
+
+  // Calculate score for each pillar
+  pillars.forEach(pillar => {
+    let score = 0;
+    for (let i = 1; i <= 3; i++) {
+      const selected = document.querySelector(`input[name="${pillar}${i}"]:checked`);
+      if (selected) score += parseInt(selected.value);
+    }
+    scores[pillar] = score;
+  });
+
+  // Calculate total score
+  const totalScore = Object.values(scores).reduce((sum, score) => sum + score, 0);
+  document.getElementById("finalScore").textContent = totalScore;
+
+  // Determine weakest pillar
+  const weakestPillar = Object.keys(scores).reduce((weakest, pillar) => 
+    scores[pillar] < scores[weakest] ? pillar : weakest, pillars[0]);
+
+  // Display pillar scores
+  document.getElementById("pillars").innerHTML = pillars.map(pillar => 
+    `<li>${capitalizeFirstLetter(pillar)}: ${scores[pillar]}/15</li>`
+  ).join("");
+
+  // Show challenge recommendation based on weakest pillar
+  const challengeRecommendations = {
+    "communication": "Try The No-Talker Drill to improve silent coordination!",
+    "trust": "Try Blindfolded Passing to build trust and communication.",
+    "teamwork": "Try The Celebration Sync to improve teamwork.",
+    "morale": "Try Teammate Roast Night for improving morale."
+  };
+  document.getElementById("challengeRecommendation").textContent = challengeRecommendations[weakestPillar];
+
+  // Make results section visible
+  document.getElementById("quizResults").classList.add("show");
+});
+
+// Helper function to capitalize first letter
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+</script>
+		<!-- End of coding for the scoring part for the demo test -->
+
+
 		  
 	<!-- Sign up now -->
 <div class="container mt-4">
@@ -229,6 +384,8 @@
   });
 </script>
 		  <!-- End of sign up -->
+		
+		  <div class="container mt-5"> </div>
 	  
 
      <!-- Start of the footer -->
