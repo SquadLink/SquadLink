@@ -41,7 +41,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto col-10 mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="goal.html">Our Goal</a>
@@ -58,7 +58,7 @@
             </ul>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link active" href="contact.html">Contact</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -93,7 +93,7 @@
         <!-- Card #1 -->
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="card shadow h-100">
-            <img class="img-fluid" src="images/rodney.png" alt="Profile Image of Rodney Peerkhan">
+            <img class="img-fluid" src="images/rodney.png" alt="Rodney Peerkhan">
             <div class="card-body">
               <h5 class="card-title">Rodney Peerkhan</h5>
               <p class="card-text">Currently in my second year of Creative Business at Breda University of Applied Sciences, where I’m working on a multitude of storytelling, graphic design and audio-visual production projects.</p>
@@ -107,7 +107,7 @@
         <!-- Card #2 -->
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="card shadow h-100">
-            <img class="img-fluid" src="images/sanna.png" alt="Placeholder Image">
+            <img class="img-fluid" src="images/sanna.png" alt="Sanna van Vliet">
             <div class="card-body">
               <h5 class="card-title">Sanna van Vliet</h5>
               <p class="card-text">I’m a second year Creative Business student at BUas who enjoys learning new things and trying out different area’s. My biggest passion lies in marketing and writing, and I hope to find a job in the future where I can combine the two.</p>
@@ -121,10 +121,10 @@
         <!-- Card #3 -->
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
+            <img class="img-fluid" src="images/wessel.png" alt="Wessel Moeleker">
             <div class="card-body">
               <h5 class="card-title">Wessel Moeleker</h5>
-              <p class="card-text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
+              <p class="card-text">I'm a second-year Creative Business student with a passion for sport, media and marketing. With over 10 years of football experience myself I am very passionate about this scam.</p>
             </div>
             <div class="card-footer p-2 text-end">
               <a href="https://www.linkedin.com/in/wesselmoeleker/" target="_blank" class="btn btn-primary">Learn more</a>
@@ -135,10 +135,10 @@
         <!-- Card #4 -->
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
+            <img class="img-fluid" src="images/yasmijn.png" alt="Yasmijn Engelaar">
             <div class="card-body">
               <h5 class="card-title">Yasmijn Engelaar</h5>
-              <p class="card-text">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum.</p>
+              <p class="card-text">I’m a second year Creative Business student at BUas. My passions lie in multiple creative fields; the visual arts both physical and digital, writing, and baking.</p>
             </div>
             <div class="card-footer p-2 text-end">
               <a href="https://www.linkedin.com/in/yasmijn-engelaar-a087b534b/" target="_blank" class="btn btn-primary">Learn more</a>
@@ -155,29 +155,47 @@
       <div class="col-12 text-center mb-4">
         <hr><h1>Contact us</h1>
         <p class="lead">Send us an email or contact us on one of our socials.<br>Be sure to check out the <a href="faq.html">Frequently Asked Questions</a> page before you contact us.</p>
-        <p>* You must complete these fields.</p>
       </div>
-     
-      <form>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Email address*</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Your question*</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
-        </div>
-        <div class="mb-3">
-          <label for="formFileMultiple" class="form-label">Multiple files input example</label>
-          <input class="form-control" type="file" id="formFileMultiple" multiple>
-        </div>
-        <div>
-          <button class="btn btn-primary mb-2" type="reset">Submit</button>
-        </div>
-      </form>
     </section>
 
-
+	<!-- Sign up now -->
+  <div class="container mt-4">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <form id="fakeSignupForm">
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" required>
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating mb-3">
+            <textarea type="text" class="form-control" id="floatingInput" required></textarea>
+            <label for="floatingInput">Your question</label> 
+          </div>
+          <div class="mb-3">
+            <label for="formFileMultiple" class="form-label">Insert files if needed</label>
+            <input class="form-control" type="file" id="formFileMultiple" multiple>
+          </div>
+          <button type="submit" class="btn btn-primary">Sign Up</button>
+        </form>
+  
+        <!-- Success Message (Initially Hidden) -->
+        <div id="successMessage" style="display: none; color: green; margin-top: 10px;">
+          Thank you for getting in contact with us! We will get back to you as soon as possible.
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    document.getElementById("fakeSignupForm").addEventListener("submit", function(event) {
+      event.preventDefault(); // Prevent actual form submission
+      document.getElementById("successMessage").style.display = "block"; // Show success message
+      document.getElementById("fakeSignupForm").reset(); // Reset form
+    });
+  </script>
+        <!-- End of sign up -->
+      
+        <div class="container mt-5"> </div>
 
     <!-- Start of the footer -->
     <footer class="footer">
