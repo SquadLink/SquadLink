@@ -115,7 +115,6 @@ header {
   
   header video {
 	position: absolute;
-	top: 50%;
 	left: 52%;
 	min-width: 100%;
 	min-height: 100%;
@@ -216,8 +215,16 @@ margin-right: -1%;
 	border-color: #1C14EF  !important ;
 }
 
+.pillars {
+	background-color: #F0AC5E ;
+	border-style: double;
+	border-width: 20px;
+	border-color: #000000 ;
+}
 
-
+.pillar-shadow {
+	box-shadow: #000000 0px 0px 20px;
+}
 
 
 
