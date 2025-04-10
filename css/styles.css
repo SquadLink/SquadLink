@@ -313,7 +313,9 @@ margin-right: -1%;
 
   /* Wessel CSS */
 .ourgoal-header video {
-	left: 50%; 
+	left: 50%;
+	top: 15%;
+
 }
 
 header .overlay-blacker {
@@ -326,6 +328,7 @@ header .overlay-blacker {
 	opacity: 0.6;
 	z-index: 1;
   }
+
 .ourgoal-logo {
 	margin-top: -8rem;
 }
@@ -363,10 +366,13 @@ header .overlay-blacker {
 
 /* card flip */
 .flip-card {
-  background-color: transparent;
-  width: 360px;
-  height: 360px;
-  perspective: 1000px;
+  width: 320px;
+  height: 320px;
+  flex-shrink: 0;
+}
+
+.d-flex.gap-4 {
+  row-gap: 2rem; /* extra spacing tussen rijen als het scherm te smal is */
 }
 
 .flip-card-inner {
