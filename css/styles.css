@@ -59,6 +59,8 @@ header {
 .navbar {
 	background-color: #F08400 ;
 	min-height: 80px;
+	position: relative;
+    z-index: 3;
 }
 
 /* Effect on social media buttons */
@@ -312,10 +314,27 @@ margin-right: -1%;
 
 
   /* Wessel CSS */
-.ourgoal-header video {
-	left: 50%;
-	top: 15%;
 
+.ourgoal-header {
+  position: relative;
+  height: 75vh;
+  min-height: 55rem;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 80px;
+  z-index: 0;
+}
+
+.ourgoal-header video {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 0;
 }
 
 header .overlay-blacker {
@@ -330,16 +349,16 @@ header .overlay-blacker {
   }
 
 .ourgoal-logo {
-	margin-top: -8rem;
+	margin-top: -12rem;
 }
 
 .ourgoal-title-header {
 	font-family: "Bungee Inline", sans-serif;
-	font-weight: 500;
+	font-size: 100px;
 	font-style: normal;
 	color: #fffcf8;
 	position: absolute;
-	top: 48%;
+	top: 35%;
 	text-align: center;
 }
 
@@ -351,16 +370,139 @@ header .overlay-blacker {
 	font-style: normal;
 	color: #fffcf8;
 	position: absolute;
-	top: 61%;
+	top: 53%;
 	text-align: center;
 }
 
+.btn-ourgoal {
+	height: 60px;
+	width: 150px;
+	font-size: 1.5rem;
+}
+
 .left-aligned-centered {
-	max-width: 1000px;
+	max-width: 750px;
 	font-family: "Montserrat", sans-serif;
 	text-align: left;
 	margin: 0 auto;
+	
+}
 
+.who-title {
+  padding: 0 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+  font-family: "Bungee", sans-serif;
+}
+
+/* mobile fixes */
+@media (max-width: 576px) {
+
+  /* 1. Navbar above header fix */
+  .navbar {
+    position: absolute;
+    z-index: 1055;
+	width: 100%;
+    background-color: #F08400;
+	min-height: unset;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+	.navbar-brand img {
+    max-height: 50px;
+    width: auto;
+  }
+
+	.navbar-brand {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+	
+  /* 2. Button fix: */
+  .title-button {
+    position: static;
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+
+  /* 3. Header text fix*/
+  .ourgoal-title-header {
+    top: 40%;
+    font-size: 1.6rem;
+  }
+
+  .subtitle-header {
+    top: 52%;
+    font-size: 1.05rem;
+    padding: 0 1rem;
+  }
+
+  /* 4. text fix */
+  .left-aligned-centered {
+    padding: 0 1rem;
+  }
+
+	/* 5. header fix */
+.ourgoal-header {
+  position: relative;
+  height: 75vh;
+  min-height: 60rem;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 80px;
+  z-index: 0;
+}
+
+.ourgoal-header video {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 0;
+}
+
+header .overlay-blacker {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.6;
+	z-index: 1;
+  }
+
+.ourgoal-logo {
+	margin-top: -5rem;
+}
+
+.ourgoal-title-header {
+	font-family: "Bungee Inline", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	color: #fffcf8;
+	position: absolute;
+	top: 26%;
+	text-align: center;
+}
+
+.subtitle-header {
+	max-width: 1000px;
+	font-family: "Oswald", sans-serif;
+	font-size: 1.5rem;
+	font-weight: 300;
+	font-style: normal;
+	color: #fffcf8;
+	position: absolute;
+	top: 46%;
+	text-align: center;
+}	
 	
 }
 
@@ -372,7 +514,7 @@ header .overlay-blacker {
 }
 
 .d-flex.gap-4 {
-  row-gap: 2rem; /* extra spacing tussen rijen als het scherm te smal is */
+  row-gap: 2rem; /* extra spacing between rows if screen is to small */
 }
 
 .flip-card-inner {
@@ -403,7 +545,7 @@ header .overlay-blacker {
 }
 
 .flip-card-back {
-  	background-color: #2980b9;
+  	background-color: #F0AC5E;
   	color: white;
   	transform: rotateY(180deg);
 }
