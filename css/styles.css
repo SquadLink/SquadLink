@@ -57,7 +57,7 @@ header {
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #F08400 ;
+	background-color: #F0AC5E ;
 	min-height: 80px;
 	position: relative;
     z-index: 3;
@@ -114,7 +114,6 @@ h4 {
 
 li {
 	font-family: Montserrat, sans-serif;
-	background-color: #fffcf8;
 }
 
 header {
@@ -190,7 +189,7 @@ margin-right: -1%;
 	font-weight: 700;
 	font-style: normal;
 	position: absolute;
-	bottom: 7%;
+	bottom: 15%;
 	text-align: center;
 }
 
@@ -198,7 +197,6 @@ margin-right: -1%;
 	background-color: #F0AC5E ;
 	padding: 30px; 
 }
-
 
 	.footer .footer-site-logo {
 	  text-align: center;
@@ -227,17 +225,9 @@ margin-right: -1%;
 	border-color: #1C14EF  !important ;
 }
 
-.pillars {
-	background-color: #F0AC5E ;
-	border-style: double;
-	border-width: 20px;
-	border-color: #000000 ;
+.landing-page-font {
+	font-size: larger;
 }
-
-.pillar-shadow {
-	box-shadow: #000000 0px 0px 20px;
-}
-
 
 
 
