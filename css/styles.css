@@ -86,24 +86,35 @@ footer a:hover {
 }
 
 h1 {
-	font-family: Bungee, sans-serif;
-	font-size: 2.5em;
+	font-family: "Bungee", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+h2 {
+	font-family: "Oswald", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 200;
+	font-style: normal;
 }
 
 h3 {
-	font-family: Oswald, sans-serif;
-	font-size: 1.5em
-	
+	font-family: "Oswald", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 200;
+	font-style: normal;
 }
 
-h5 {
-	font-family: Oswald, sans-serif;
-	font-size: 1.5em;
+h4 {
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 200;
+	font-style: bold;
 }
 
 li {
-	font-family: Oswald, sans-serif;
-	font-size: 1.5em;
+	font-family: Montserrat, sans-serif;
+	background-color: #fffcf8;
 }
 
 header {
@@ -164,13 +175,12 @@ header {
 margin-top: 10px;
 margin-right: -1%;
 }
-.title-header {
+.page-header {
 	font-family: "Bungee Inline", sans-serif;
 	font-weight: 500;
 	font-style: normal;
-	color: #fffcf8;
-	position: absolute;
-	top: 70%;
+	color: #000000;
+
 	text-align: center;
 }
 
