@@ -607,7 +607,7 @@ header .overlay-blacker {
 }
 
 .btn {
-    background-color: #4200FF;
+    background-color: #1C14EF;
     border-width: thin;
     border-color: #000000;
 	font-family: "Oswald", sans-serif;
@@ -616,7 +616,7 @@ header .overlay-blacker {
 .carousel-item img {
     height: 600px;
     object-fit: cover;
-  border: 5px solid #4200FF;
+  border: 5px solid #1C14EF;
   border-radius: 10px;
 }
 
