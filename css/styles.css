@@ -608,21 +608,17 @@ header .overlay-blacker {
 
 .btn {
     background-color: #1C14EF;
-    border-width: thin;
-    border-color: #000000;
 	font-family: "Oswald", sans-serif;
 }
 
 .carousel-item img {
     height: 600px;
     object-fit: cover;
-  border: 5px solid #1C14EF;
-  border-radius: 10px;
 }
 
 .carousel-caption {
   color: #FFFFFF;
-  background-color: rgba(0, 186, 224, 0.7);
+  background-color: rgba(0, 186, 224, 0.5);
   border-radius: 12px;                     
   padding: 1rem 1.5rem;                    
   max-width: 70%;                          
@@ -635,6 +631,7 @@ header .overlay-blacker {
   color: black; 
   font-family: "Oswald", sans-serif;
   border: 1px solid #00BAE0; 
+	font-size: 20px;
 }
 
 .accordion-button:hover {
@@ -659,13 +656,13 @@ header .overlay-blacker {
 
 .accordion-body {
   font-family: "Oswald", sans-serif;
-  font-size: 12px; 
+  font-size: 15px; 
   line-height: 1.6;
 }
 
 .accordion-body-two {
   font-family: "Oswald", sans-serif;
-  font-size: 15px; 
+  font-size: 20px; 
   line-height: 1.6;
     padding-left: 10px;
 	padding-bottom: 10px;
