@@ -318,7 +318,7 @@ margin-right: -1%;
 
 .ourgoal-header {
   position: relative;
-  min-height: 40rem;
+  min-height: 35rem;
   width: 100%;
   overflow: hidden;
   padding-top: 80px;
@@ -372,12 +372,6 @@ header .overlay-blacker {
 	position: absolute;
 	top: 53%;
 	text-align: center;
-}
-
-.btn-ourgoal {
-	height: 60px;
-	width: 150px;
-	font-size: 1.5rem;
 }
 
 .left-aligned-centered {
@@ -448,7 +442,7 @@ header .overlay-blacker {
 .ourgoal-header {
   position: relative;
   height: 75vh;
-  min-height: 60rem;
+  min-height: 20rem;
   width: 100%;
   overflow: hidden;
   padding-top: 80px;
@@ -456,15 +450,13 @@ header .overlay-blacker {
 }
 
 .ourgoal-header video {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  transform: translateX(-50%) translateY(-50%);
-  z-index: 0;
+    object-fit: cover;
+    width: 200vw;
+    height: 100vh;
+    position: absolute;
+    top: -70%;
+    left: -50%;
+    transform: scale(50%);
 }
 
 header .overlay-blacker {
@@ -548,9 +540,14 @@ header .overlay-blacker {
   	background-color: #F0AC5E;
   	color: white;
   	transform: rotateY(180deg);
+	  padding: 1rem;
+  box-sizing: border-box;
 }
 
-
+.flip-card-back p {
+  font-size: 1rem; /* iets kleiner dan standaard */
+  line-height: 1.4;
+}
 
 
 
