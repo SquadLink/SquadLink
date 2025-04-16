@@ -21,14 +21,12 @@
   				/* font-weight for oswald can range from 200 to 700 */
 .oswald-regular {
 	font-family: "Oswald", sans-serif;
-	font-optical-sizing: auto;
 	font-weight: 200;
 	font-style: normal;
   }
 
   .oswald-light {
 	font-family: "Oswald", sans-serif;
-	font-optical-sizing: auto;
 	font-weight: 200;
 	font-style: normal;
   }
@@ -36,7 +34,6 @@
   					/* font-weight for montserrat can range from 100 to 900 */
 .montserrat-regular {
 	font-family: "Montserrat", sans-serif;
-	font-optical-sizing: auto;
 	font-weight: 200;
 	font-style: normal;
   }
@@ -93,23 +90,19 @@ h1 {
 
 h2 {
 	font-family: "Oswald", sans-serif;
-	font-optical-sizing: auto;
 	font-weight: 200;
 	font-style: normal;
 }
 
 h3 {
 	font-family: "Oswald", sans-serif;
-	font-optical-sizing: auto;
 	font-weight: 200;
 	font-style: normal;
 }
 
 h4 {
 	font-family: "Montserrat", sans-serif;
-	font-optical-sizing: auto;
 	font-weight: 400;
-	font-style: bold;
 	font-size: larger;
 }
 
@@ -177,11 +170,11 @@ header {
 
 	.home-logo {
 		position: absolute;
+		width: 500px;
 	}
 	
 .title-button {
 	font-family: "Oswald", sans-serif;
-	font-optical-sizing: auto;
 	font-weight: 700;
 	font-style: normal;
 	position: absolute;
@@ -385,7 +378,7 @@ header .overlay-blacker {
     position: absolute;
     top: -70%;
     left: -50%;
-    transform: scale(50%);
+    transform: scale(0.5);
 }
 
 header .overlay-blacker {

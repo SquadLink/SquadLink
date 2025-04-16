@@ -1,5 +1,5 @@
-<!doctype html>
-<html lang="en" class="h-100">
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -151,7 +151,8 @@
 
     <section class="container-fluid">
       <div class="col-12 text-center mb-4">
-        <hr><h1>Contact us</h1>
+        <hr class="my-4">
+        <h1>Contact us</h1>
         <p class="lead">Send us an email or contact us on one of our socials.<br>Be sure to check out the <a href="faq.html">Frequently Asked Questions</a> page before you contact us.</p>
       </div>
       
@@ -159,14 +160,14 @@
   <div class="container mt-4">
     <div class="row justify-content-center">
       <div class="col-md-8">
-        <form id="fakeSignupForm">
+        <form id="contactform">
           <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingInput" required>
-            <label for="floatingInput">Email address</label>
+            <input type="email" class="form-control" id="contact-email" required>
+            <label for="contact-email">Email address</label>
           </div>
           <div class="form-floating mb-3">
-            <textarea type="text" class="form-control" id="floatingInput" required></textarea>
-            <label for="floatingInput">Your question</label> 
+            <textarea class="form-control" id="contact-question" required></textarea>
+            <label for="contact-question">Your question</label> 
           </div>
           <div class="mb-3">
             <label for="formFileMultiple" class="form-label">Insert files if needed</label>
