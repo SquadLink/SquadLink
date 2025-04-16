@@ -254,7 +254,6 @@ header {
 
 
 
-
   /* Sanna CSS */
 
 .faqborder {
@@ -402,10 +401,11 @@ header .overlay-blacker {
 	min-height: unset;
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
+	overflow: hidden;
   }
 
 	.navbar-brand img {
-    max-height: 50px;
+    max-height: 100px;
     width: auto;
   }
 
