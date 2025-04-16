@@ -175,22 +175,17 @@ header {
 	margin-right: -1%;
 	}
 
-.page-header {
-	font-family: "Bungee Inline", sans-serif;
-	font-weight: 500;
-	font-style: normal;
-	color: #000000;
-
-	text-align: center;
-}
-
+	.home-logo {
+		position: absolute;
+	}
+	
 .title-button {
 	font-family: "Oswald", sans-serif;
 	font-optical-sizing: auto;
 	font-weight: 700;
 	font-style: normal;
 	position: absolute;
-	bottom: 15%;
+	bottom: 10%;
 	text-align: center;
 }
 
@@ -232,28 +227,6 @@ header {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   /* Sanna CSS */
 
 .faqborder {
@@ -266,50 +239,6 @@ header {
 .accordion-button {
 	min-height: 60px
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -417,7 +346,7 @@ header .overlay-blacker {
   /* 2. Button fix: */
   .title-button {
     position: static;
-    margin-top: 1.5rem;
+    margin-top: 345px;
     text-align: center;
   }
 
@@ -470,8 +399,8 @@ header .overlay-blacker {
 	z-index: 1;
   }
 
-.ourgoal-logo {
-	margin-top: -5rem;
+.home-logo {
+	margin-top: 6rem;
 }
 
 .ourgoal-title-header {
@@ -495,9 +424,24 @@ header .overlay-blacker {
 	top: 46%;
 	text-align: center;
 }	
-	
+.clean-header {
+padding-top: 110px;
 }
 
+.corp-banner{
+ height: 300px;
+ width: 150%;
+ object-fit: cover;
+ object-position: center center;
+}
+
+.persona{
+	  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+}
 /* card flip */
 .flip-card {
   width: 320px;
@@ -548,42 +492,6 @@ header .overlay-blacker {
   font-size: 1rem; /* iets kleiner dan standaard */
   line-height: 1.4;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
