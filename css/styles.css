@@ -96,14 +96,15 @@ h2 {
 
 h3 {
 	font-family: "Oswald", sans-serif;
-	font-weight: 200;
+	font-weight: 300;
 	font-style: normal;
 }
 
 h4 {
 	font-family: "Montserrat", sans-serif;
-	font-weight: 400;
+	font-weight: 500;
 	font-size: larger;
+
 }
 
 li {
@@ -218,7 +219,6 @@ header {
 .landing-page-font {
 	font-size: larger;
 }
-
 
 
   /* Sanna CSS */
